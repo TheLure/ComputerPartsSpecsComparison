@@ -2,6 +2,9 @@
 Grunder i att jämföra komponenter för speldatorer.
 
 En dator består av ett antal huvudkomponenter: Moderkort, processor, minne, grafikkort, hårddisk, nätaggregat.
+Moderkortet är den centrala delen på vilka man monterar övriga delar. Det kopplar samman alla andra delar och är viktigt för att övriga delar ska fungera bra.
+Processorn är den del som kör programmen. Hög klockfrekvens gör att den kan köra saker snabbt och många kärnor (cores) gör att den kan köra fler saker samtidigt. När man utvecklare program och spel kan det vara svårt att göra så saker går snabbare genom att flera saker händer samtidigt. Därför är det för spel i regel viktigt med hög klockfrekvens. 
+
 
 ## Moderkort (MB - Motherboard)
 ### Ordlista
