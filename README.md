@@ -1,5 +1,7 @@
 # Jämföra datorkomponenter
-Grunder i att jämföra komponenter.
+Grunder i att jämföra komponenter för speldatorer.
+
+En dator består av ett antal huvudkomponenter: Moderkort, processor, minne, grafikkort, hårddisk, nätaggregat.
 
 ## Moderkort (MB - Motherboard)
 ### Ordlista
@@ -36,24 +38,29 @@ Det är i regel viktigt att man använder minnesmoduler av exakt samma specifika
 
 
 ## Grafikkort (GPU - Graphics Processing Unit)
+### Grunder
+Nvidia och AMD tar fram olika GPU:er i olika varianter (t.ex. RTX 3050, RTX 5060) och sedan tar ett företag som tillverkar grafikkort dessa GPU:er och bygger grafikkort av dom. Grafikkort från samma tillverkare kan ha olika prestanda trots samma grund-GPU genom att tillverkarna ändrar saker som klockfrekvenser av olika slag, bestycker korten med olika antal "miniprocessorer"
+Viktigt! Tänk på att om du har en datorskärm med väldigt hög upplösning kräver det mycket mer prestanda av grafikkortet. Man kan "vinna" väldigt mycket prestanda i spel genom att välja en skärm med mer "normal" upplösning.
+Snabbt minne och bred minnesbandbredd gör att spel laddas snabbare.
 ### Viktiga faktorer för prestanda
 - Klockfrekvenser (hastighet, snabbare = bättre)
 - Minnesfrekvenser (hastighet, snabbare = bättre)
 - Minnesbandbredd (jämför med motorväg: Fler bilar kommer fram om det är 4 körfält istället för bara 2. Fler är bättre.)
 - Antal "Shaders" eller Shading units (och andra interna mini-processorer)
+- Vilken upplösning det ska vara på den bildskärm du ska använda.
 
 Minnesbandbredd gör stor skillnad om den är högre. Ett lite långsammare minne kan ha mycket bättre prestanda om bandbredden är högre!
-
-### Grunder
-Nvidia och AMD tar fram olika GPU:er i olika varianter (t.ex. RTX 3050, RTX 5060) och sedan tar ett företag som tillverkar grafikkort dessa GPU:er och bygger grafikkort av dom. Grafikkort från samma tillverkare kan ha olika prestanda trots samma grund-GPU genom att tillverkarna ändrar saker som klockfrekvenser av olika slag, bestycker korten med olika antal "miniprocessorer"
-
 
 ### Jämföra olika grafikkort
 Värt att jämföre exakta modeller från olika tillverkare. Prestanda kan skilja rätt mycket även om båda korten t.ex. är RTX 5060:
 
 https://versus.com/en/asus-dual-geforce-rtx-5060-ti-oc-edition-8gb-vs-gainward-geforce-rtx-5060-ghost
 
-
+## Hårddisk (HDD - Hard Disk Drive)
+### Grunder
+För spel och operativsystem använder man idag M2 diskar.
+Diskar har i regel olika hastighet för läsning och skrivning av data. Ju snabbare desto bättre.
+Snabb disk betyder att spel laddas snabbare.
 
 ## Nätaggregat (PSU - Power Supply Unit)
 ### Rating (Bronze, Silver, Gold, o.s.v.)
