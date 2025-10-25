@@ -22,6 +22,8 @@ Chipset = En familj av kretsar från Intel eller AMD
 ### Grunder
 AMD och Intel tillverkar grund-chipset och olika socket-standarder som passar de CPU:er de tillverkar. Dessa chipset har ett antal grundegenskaper och begränsningar för vad de klarar, t.ex. hur mycket RAM de kan stödja som max. Tillverkare av moderkort (t.ex. Asus eller MSI) utgår sedan från dessa och bygger egna moderkort av dom och bestämmer hur många av funktionerna som chipsetet stödjer som varje moderkortsmodell ska utnyttja.
 
+Här kan man t.ex. läsa lite om de olika chipset som finns för AMD AM5: https://www.digitalcitizen.life/x670e-x670-b650e-b650-chipsets/
+
 ## Processor (CPU - Central Processing Unit)
 ### Ordlista
 Socket = Uttaget där Processorn monteras på moderkortet. De måste vara samma annars passar det inte!
@@ -83,3 +85,33 @@ https://www.clearesult.com/80plus/index.php/program-details#program-details-tabl
 
 # Speldator
 För en speldator är den viktigaste komponenten grafikkortet, de är dyre men det är de som gör den stora skillnaden. Vill man spela i hög upplösning (4K+) behöver man riktigt dyra grafikkor. Dagens processorer däremot är så bra att en "mellan" modell av CPU, som t.ex. en av Ryzen 5 modellerna med hög frekvens, räcker alldeles utmärkt. "Standard" för minne idag är minst 16GB. Mer minne gör i regel inte att ett spel flyter bättre utan har mer att göra att man kan ha igång fler program i bakgrunden. Det kan hjälpa så spel startar/"laddar" lite snabbare. Måste man hålla en budget kan mindre men snabbare minne vara bättre än mer men långsammare minne om man vill ha bra prestanda.
+
+## Bygga från grunden
+Bygger man från grunden är det många beslut och en hel del efterforskningar man får göra. Här är ett exempel på hur man kan gå tillväga:
+### 1. Bestäm om det ska vara AMD eller Intel
+Först får man bestämma om man vill bygga baserat på AMD eller Intel eftersom det påverkar många komponentval.
+### 2. Bestäm vilken processor och moderkort du vill bygga runt
+Processor och Moderkort måste passa ihop (samma "socket") så de väljer man tillsammans i samma steg. Välj den senaste generationen av CPU från tillverkaren men välj modell efter budget och ändamål. Fär en speldator så är t.ex. en Ryzen 5 eller Intel i5 perfekt balans mellan pris och prestanda.
+Välj ett moderkort som är lite dyrare och har de "bättre" uppsättning kretsarna för den generation av CPU du väljer. Tänk också på om du vill t.ex. ha extra funktioner som inbyggt wifi eller bluetooth. Det kan också skilja t.ex. hur många minnesplatser olika moderkort har. Ett moderkort med lite bättre prestanda brukar i regel ha 4st minnesplatser.
+Tänk på att moderkort har olika "formfaktor" (ATX, micro-ATX o.s.v.) Detta måste man tänka på när man ska välja ett datorchassi senare.
+Om du köper en processor utan fläkt måste du köpa till en sådan!
+### 3. Läs på vilka minnesmoduler som rekommenderas för moderkortet
+När du har exakt moderkortmodell går du in på tillverkarens supportsida och letar fram listan med vilka minnesmoduler moderkortet testats med. Vill man undvika problem är det smart att välja någon av de minnesmoduler som listas där.
+### 4. Välja hårddisk (M2 1TB)
+Välj en snabbare M2 disk med så mycket utrymme du behöver och har råd med. 1TB är rätt standard idag som utgångsstorlek.
+### 5. Välj grafikkort
+Här kan man lägga hur mycket pengar som helst nästan. Viktigt att tänka på är att kortet passar på moderkortet.
+### 6. Välj nätagg
+När man valt alla delar som drar ström vet man hur stor nätagg man behöver på ett ungefär så det väljer man nu.
+### 7. Välj Datorlåda
+Sist av allt väljer man datorlåda att bygga i. Den behöver passa den formfaktor moderkortet har och sedan måste alla delar rymmas rent fysiskt! Grafikkort kan vara långa/stora. Fläktar till processorer kan vara stora. Det är bättre att ta en lite rymligare låda så man inte råkar ut för att delarna helt enkelt inte får plats! Chassit bör gärna ha minst en fläkt som suger ut luft ur lådan och gärna en som blåser in luft också så det blir bra cirkulation inuti. Men tänk på att många fläktar kan betyda att datorn låter mycket.
+
+### Checklista av delar för bygge:
+- Moderkort
+- Processor
+- Processorkylare (om det inte följer med processorn). Tänk på du kan behöva någon form av termisk pasta för montering av fläkt! Det ingår i de flesta fall men kolla upp det!
+- Minnesmodul(er)
+- Grafikkort
+- Nätaggregat
+- Hårddisk/lagring
+- Datorchassi
