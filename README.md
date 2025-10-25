@@ -38,7 +38,7 @@ Måste man välja mellan fler cores eller högre klockfrekvens så väljer man h
 https://versus.com/en/amd-ryzen-5-5600x-vs-amd-ryzen-5-7500f
 
 ## Minne (RAM - Random Access Memory)
-### Ordilista
+### Ordlista
 - Minnes-modul = Själva RAM-delen som man sättar fast på moderkortet.
 ### Grunder
 Viktigt att välja minnes-moduler som passar moderkortet! De som tillverkar moderkort brukar ha ett dokument för varje moderkortsmodell om vilka minnen de testat moderkortet med. Välj ett minne som de testat om man plockar ihop delarna själv!
@@ -46,7 +46,6 @@ Vill man utöka minnet i datorn i framtiden är det smart att ta färre men stö
 Det är i regel viktigt att man använder minnesmoduler av exakt samma specifikationer i datorn. Man bör undvika att blanda minnen från olika tillverkare.
 ### Viktiga egenskaper
 - Klockfrekvens (högre är bättre men det beror på moderkort och cpu hur snabbt det går att köra!)
-
 
 ## Grafikkort (GPU - Graphics Processing Unit)
 ### Grunder
@@ -63,17 +62,24 @@ Snabbt minne och bred minnesbandbredd gör att spel laddas snabbare.
 Minnesbandbredd gör stor skillnad om den är högre. Ett lite långsammare minne kan ha mycket bättre prestanda om bandbredden är högre!
 
 ### Jämföra olika grafikkort
-Värt att jämföre exakta modeller från olika tillverkare. Prestanda kan skilja rätt mycket även om båda korten t.ex. är RTX 5060:
+Det är viktigt att jämföra exakta modeller från olika tillverkare. Prestanda kan skilja rätt mycket även om båda korten t.ex. är RTX 5060.
 
 https://versus.com/en/asus-dual-geforce-rtx-5060-ti-oc-edition-8gb-vs-gainward-geforce-rtx-5060-ghost
 
 ## Hårddisk (HDD - Hard Disk Drive)
 ### Grunder
-För spel och operativsystem använder man idag M2 diskar.
+För spel och operativsystem använder man idag M2 diskar. De är standard idag.
 Diskar har i regel olika hastighet för läsning och skrivning av data. Ju snabbare desto bättre.
 Snabb disk betyder att spel laddas snabbare.
 
 ## Nätaggregat (PSU - Power Supply Unit)
+### Grunder
+Nätaggregatet ska vara anpassat efter hur mycket ström alla komponenterna i datorn drar totalt. Man bör inte ha så stort nätagg som möjligt.
+Det finns verktyg som kan hjälpa till att räkna ut hur stort nätagg man måste ha:
+https://www.newegg.com/tools/power-supply-calculator
 ### Rating (Bronze, Silver, Gold, o.s.v.)
-Hur effektivt ett nätaggregat är. Man kan sammanfatta det som att ju bättre rating desto mindre ström kommer datorn förbruka.
+Man ser ofta att nätagg har t.ex. "Bronze" rating. Den beskriver hur effektivt ett nätaggregat är. Man kan sammanfatta det som att ju bättre rating desto mindre ström kommer datorn förbruka, de arbetar effektivare helt enkelt.
 https://www.clearesult.com/80plus/index.php/program-details#program-details-table
+
+# Speldator
+För en speldator är den viktigaste komponenten grafikkortet, de är dyre men det är de som gör den stora skillnaden. Vill man spela i hög upplösning (4K+) behöver man riktigt dyra grafikkor. Dagens processorer däremot är så bra att en "mellan" modell av CPU, som t.ex. en av Ryzen 5 modellerna med hög frekvens, räcker alldeles utmärkt. "Standard" för minne idag är minst 16GB. Mer minne gör i regel inte att ett spel flyter bättre utan har mer att göra att man kan ha igång fler program i bakgrunden. Det kan hjälpa så spel startar/"laddar" lite snabbare. Måste man hålla en budget kan mindre men snabbare minne vara bättre än mer men långsammare minne om man vill ha bra prestanda.
