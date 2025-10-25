@@ -1,10 +1,19 @@
 # Jämföra datorkomponenter
 Grunder i att jämföra komponenter för speldatorer.
 
-En dator består av ett antal huvudkomponenter: Moderkort, processor, minne, grafikkort, hårddisk, nätaggregat.
+En dator består av ett antal huvudkomponenter: Moderkort, processor, minne, grafikkort, hårddisk, nätaggregat. De ska arbeta tillsammans och det är viktigt att de passar bra ihop.
+
 Moderkortet är den centrala delen på vilka man monterar övriga delar. Det kopplar samman alla andra delar och är viktigt för att övriga delar ska fungera bra.
+
 Processorn är den del som kör programmen. Hög klockfrekvens gör att den kan köra saker snabbt och många kärnor (cores) gör att den kan köra fler saker samtidigt. När man utvecklare program och spel kan det vara svårt att göra så saker går snabbare genom att flera saker händer samtidigt. Därför är det för spel i regel viktigt med hög klockfrekvens. 
 
+Minnet håller information som processorn behöver när programmen körs. Snabbt minne är bättre. I spel brukar mer minne betyda att en större del av spelet får plats i minnet samtidigt vilket betyder att när det väll startat så behöver det inte ladda från hårddisk lika ofta.
+
+Grafikkortet gör mest skillnad för en speldator och är den dyraste komponenten. Utvecklingen går snabbast här just nu och grafikkortet är den del som brukar bli "omodern" först.
+
+Hårddiskar är idag i regel rätt snabba (M2 SSD) och det är inte superkritiskt vad man väljer.
+
+Nätaggregat ska man anpassa i storlek efter hur mycket ström alla komponenter drar tillsammans. Ett onödigt kraftigt nätagg gör att datorn drar onödigt mycket ström och ett för svagt nätaggregat gör att datorn blir instabil eller inte startar alls.
 
 ## Moderkort (MB - Motherboard)
 ### Ordlista
@@ -12,7 +21,6 @@ Socket = "uttaget" där man monterar Processorn.
 Chipset = En familj av kretsar från Intel eller AMD
 ### Grunder
 AMD och Intel tillverkar grund-chipset och olika socket-standarder som passar de CPU:er de tillverkar. Dessa chipset har ett antal grundegenskaper och begränsningar för vad de klarar, t.ex. hur mycket RAM de kan stödja som max. Tillverkare av moderkort (t.ex. Asus eller MSI) utgår sedan från dessa och bygger egna moderkort av dom och bestämmer hur många av funktionerna som chipsetet stödjer som varje moderkortsmodell ska utnyttja.
-
 
 ## Processor (CPU - Central Processing Unit)
 ### Ordlista
